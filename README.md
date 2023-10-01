@@ -5,11 +5,7 @@ All available API modules are supported - City feed, Geolocalized feed, Search, 
 
 ### Installation
 
-You can install this package with composer using the command below
-
-```shell
- composer require nonsoniyi/waqi-php-client
-```
+Coming soon...
 
 ### Get API key
 
@@ -17,7 +13,7 @@ Sign up for an API key [here](https://aqicn.org/data-platform/token/)
 
 ### Making Requests
 
-The primary `WAQI\API` class is a factory class that creates objects for each of the API modules, allowing you to make requests to any of them with your desired request parameters. You have to first create an object for it, then access your desired API module via the object. See the code snippets below:
+The primary `WaqiAPI` class in the `waqi_api` module is a factory class that creates objects for each of the API modules, allowing you to make requests to any of them with your desired request parameters. You have to first create an object for it, then access your desired API module via the object. See the code snippets below:
 
 ```py
 from waqi_api import WaqiAPI
